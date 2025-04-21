@@ -1,0 +1,61 @@
+.customContainer{
+  /* border: 2px solid red; */
+  }
+.customHeading{
+  font-size: 60px;
+  font-weight: 400;
+  color: #000000;
+}
+.customRowOne{
+  padding: 48px;
+}
+.customRow{
+  font-size: 60px;
+  font-weight: 400;
+  color: #FF330B;
+  line-height: 3.8rem;
+}
+.customPara{
+  font-size: 60px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 100%;
+  letter-spacing: 1.5%;
+}
+
+@media (max-width: 768px) {
+  .customHeading{
+    font-size: 44px;
+  }
+  .customRow{
+    font-size: 45px;
+    line-height: 2.8rem;
+  }
+  .customPara{
+    font-size: 39px;
+  }
+}
+
+@media (max-width: 576px) {
+  .customHeading{
+    font-size: 34px;
+  }
+  .customRow{
+    font-size: 35px;
+    line-height: 1.6rem;
+  }
+  .customPara{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 460px) {
+  .customRow{
+    font-size: 28px;
+    line-height: 1.1rem;
+  }
+  .customRowOne{
+    padding: 8px;
+  }
+}
+

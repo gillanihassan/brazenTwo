@@ -1,0 +1,63 @@
+.heroContainer {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.heroBg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.customLink {
+  color: white !important;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.customLink:hover {
+  color: #cccccc !important;
+}
+
+.navToggle{
+  background-color: black;
+  color: black;
+}
+
+/* Responsive text size */
+@media (max-width: 1200px) {
+  .heroBg {
+    height: 70%;
+  }
+}
+@media (max-width: 900px) {
+  .heroBg {
+    height: 50%;
+  }
+}
+@media (max-width: 968px) {
+  .heroBg {
+    height: 38%;
+  }
+}
+@media (max-width: 576px) {
+  .heroBg {
+    height: 27%;
+  }
+}

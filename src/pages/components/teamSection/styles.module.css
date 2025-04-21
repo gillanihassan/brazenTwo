@@ -1,0 +1,115 @@
+.mainDiv{
+  /* border: 2px solid red; */
+  padding: 100px;
+  padding-bottom: 100px;
+}
+.customImage{
+  width: 518px;
+  height: 646px;
+}
+.customImage{
+  height: 646px;
+  width: auto;
+}
+.customHeading{
+  font-size: 45px;
+  line-height: 114.99999999999999%;
+  font-weight: 400;
+  letter-spacing: 0%;
+  margin-top: 170px;
+}
+.customPara{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 135%;
+  margin-top: 65px;
+}
+.customAnchor{
+  color: #FF330B;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  top: 80px;
+}
+
+@media (max-width: 1400px) {
+  .customImage{
+    height: 570px;
+    width: auto;
+  }
+  .customHeading{
+    margin-top: 140px;
+  }
+  .customPara{
+    margin-top: 40px;
+  }
+  .customAnchor{
+    top: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .customImage{
+    height: 460px;
+    width: auto;
+  }
+  .customHeading{
+    margin-top: 131px;
+    font-size: 32px;
+  }
+  .customPara{
+    margin-top: 40px;
+    font-size: 17px;
+  }
+  .customAnchor{
+    top: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .customImage{
+    height: 338px;
+    width: auto;
+  }
+  .customHeading{
+    margin-top: 116px;
+    font-size: 23px;
+  }
+  .customPara{
+    margin-top: 14px;
+    font-size: 14px;
+  }
+  .customAnchor{
+    top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customImage{
+    height: 480px;
+    width: auto;
+  }
+  .customHeading{
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  .customPara{
+    margin-top: 22px;
+    font-size: 22px;
+  }
+  .customAnchor{
+    top: 0px;
+  }
+  .mainDiv{
+    padding: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainDiv{
+    padding: 10px;
+  }
+  .customImage{
+    height: 390px;
+  }
+}

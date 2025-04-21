@@ -1,0 +1,16 @@
+.mainDiv{
+  /* border: 2px solid black; */
+  height: 248px;
+  background-color: #EFF0F0;
+  display: flex;
+  align-items: center;
+}
+.customPara{
+  font-size: 24px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 28px ;
+}
+.customHeading{
+  font-size: 51px;
+}

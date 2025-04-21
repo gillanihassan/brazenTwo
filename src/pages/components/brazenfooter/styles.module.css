@@ -1,0 +1,45 @@
+.footerSection {
+  background: url('../../../assets/images/footer/footerBg.png') no-repeat center center;
+  background-size: cover;
+  background-color: #FF330B; /* fallback red */
+  border: 2px solid red;
+}
+.footerHeading{
+  font-size: 74px;
+  font-weight: 400;
+  line-height: 68px;
+  padding: 80px;
+}
+.footerLogo{
+  padding: 80px;
+}
+
+@media (max-width: 1400px) {
+  .footerHeading{
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 992px) {
+  .footerHeading{
+    font-size: 51px;
+    padding: 45px;
+    line-height: 58px;
+  }
+}
+
+@media (max-width: 758px) {
+  .footerHeading{
+    font-size: 42px;
+    padding: 10px;
+    line-height: 52px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footerHeading{
+    font-size: 28px;
+    padding: 0px;
+    line-height: 32px;
+  }
+}
