@@ -2,15 +2,14 @@ import React from "react";
 import { Container, Navbar, Nav, Image } from "react-bootstrap";
 import styles from "./styles.module.css";
 import brazenBackground from "../../../assets/images/brazenbakground/brazanBackground.png";
+import brazanLogo from "../../../assets/images/brazenbakground/brazanLogo.png";
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   return (
     <div className={`${styles.heroContainer}`}>
       {/* Background Image */}
       <Image src={brazenBackground} className={styles.heroBg} />
-
-      {/* Dark Overlay */}
-      <div className={styles.overlay} />
 
       {/* Navbar */}
       <Navbar
@@ -23,7 +22,7 @@ export default function HeroSection() {
           className="d-flex justify-content-between align-items-center"
         >
           <Navbar.Brand className="text-white fw-bold">
-            Project Brazen
+            <Image src={brazanLogo} />
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="navbar-nav"
@@ -31,16 +30,28 @@ export default function HeroSection() {
           />
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ms-auto text-center">
-              <Nav.Link href="#" className={`${styles.customLink}`}>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                className={`${styles.customLink}`}
+              >
                 About
               </Nav.Link>
-              <Nav.Link href="#" className={`${styles.customLink}`}>
+              <Nav.Link
+                as={Link}
+                to="/project"
+                className={`${styles.customLink}`}
+              >
                 Projects
               </Nav.Link>
               <Nav.Link href="#" className={`${styles.customLink}`}>
                 Shop
               </Nav.Link>
-              <Nav.Link href="#" className={`${styles.customLink}`}>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                className={`${styles.customLink}`}
+              >
                 Contact
               </Nav.Link>
               <Nav.Link href="#" className={`${styles.customLink}`}>

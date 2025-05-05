@@ -7,8 +7,9 @@ import TeamSection from "../components/teamSection/TeamSection";
 import BrazenPress from "../components/brazenpress/BrazenPress";
 import Brazenfoooter from "../components/brazenfooter/Brazenfoooter";
 import BrazenSectionTwo from "../components/brazensectiontwo/BrazenSectionTwo";
+import BrazenPressTwo from "../components/brazenPressTwo/BrazenPressTwo";
 
-function Brazen() {
+function Home() {
   return (
     <div>
       <HeroSection />
@@ -17,9 +18,10 @@ function Brazen() {
       <TeamSection />
       <BrazenSectionTwo />
       <BrazenPress />
+      <BrazenPressTwo />
       <Brazenfoooter />
     </div>
   );
 }
 
-export default Brazen;
+export default Home;

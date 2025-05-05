@@ -6,11 +6,26 @@
   align-items: center;
 }
 .customPara{
+  font-family: 'Poppins';
   font-size: 24px;
   color: #000000;
   font-weight: 400;
-  line-height: 28px ;
+  line-height: 135%;
+  letter-spacing: 0%;
 }
 .customHeading{
   font-size: 51px;
+}
+@media (max-width: 576px) {
+  .customPara{
+    font-size: 18px;
+  }
+  .mainDiv{
+    height: 170px;
+  }
+}
+@media (max-width: 433px) {
+  .customPara{
+    font-size: 14px;
+  }
 }

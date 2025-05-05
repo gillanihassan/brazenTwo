@@ -5,13 +5,26 @@
   border: 2px solid red;
 }
 .footerHeading{
+  font-family: 'Poppins';
   font-size: 74px;
   font-weight: 400;
-  line-height: 68px;
-  padding: 80px;
+  line-height: 100%;
+  padding: 110px;
+  color: #FFFFFF;
+}
+.customRow{
+  padding: 0rem 7rem;
+  padding-bottom: 4rem;
 }
 .footerLogo{
-  padding: 80px;
+  margin-left: 3rem;
+}
+.links{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 @media (max-width: 1400px) {
@@ -24,7 +37,10 @@
   .footerHeading{
     font-size: 51px;
     padding: 45px;
-    line-height: 58px;
+  }
+  .customRow{
+    padding: 0rem 3rem;
+    padding-bottom: 4rem;
   }
 }
 
@@ -32,14 +48,51 @@
   .footerHeading{
     font-size: 42px;
     padding: 10px;
-    line-height: 52px;
+    line-height: 100%;
+  }
+  .customRow{
+    padding: 1rem 1rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 631px) {
+  .footerHeading{
+    font-size: 38px;
   }
 }
 
 @media (max-width: 576px) {
   .footerHeading{
-    font-size: 28px;
+    font-size: 35px;
     padding: 0px;
-    line-height: 32px;
+  }
+  .customRow{
+    padding: 2rem 0rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 513px) {
+  .footerHeading{
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 472px) {
+  .footerHeading{
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 434px) {
+  .footerHeading{
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 627px) {
+  .links{
+    font-size: 17px;
   }
 }

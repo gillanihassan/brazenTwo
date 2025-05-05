@@ -1,10 +1,10 @@
 import "./App.css";
-import Brazen from "./pages/brazen/Brazen";
+import Routing from "./assets/routing/Routing";
 
 function App() {
   return (
     <>
-      <Brazen />
+      <Routing />
     </>
   );
 }

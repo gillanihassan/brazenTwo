@@ -1,0 +1,32 @@
+.mainContainer{
+  /* border: 2px solid red; */
+  margin-top: 5rem;
+  padding: 1rem;
+  padding-right: 11rem;
+}
+.colOne{
+  /* border: 1px solid green; */
+  /* max-width: 431px; */
+}
+.colTwo{
+  /* border: 1px solid rgb(255, 2, 2); */
+  /* max-width: 455px; */
+}
+.customPara{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  line-height: 135%;
+  word-spacing: 0%;
+  max-width: 500px;
+}
+.customDiv{
+  border-top: 1px solid #000000;
+}
+
+@media (max-width: 1400px) {
+  .mainContainer{
+    padding-right: 0rem;
+  }
+}

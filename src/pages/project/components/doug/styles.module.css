@@ -1,0 +1,45 @@
+.mainContainer{
+  margin-top: 5rem;
+}
+.customLink{
+  color: #FF330B;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  text-decoration: none;
+}
+.small{
+  font-family: 'Poppins';
+  color: #939393;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 11rem;
+}
+.customImage{
+  margin-left: 9rem;
+}
+.rowOne{
+  margin-bottom: 24px;
+}
+.rowTwo{
+  margin-bottom: 24px;
+}
+.rowThree{
+  margin-bottom: 24px;
+}
+
+@media (max-width: 576px) {
+  .rowOne{
+    margin-bottom: 5px;
+  }
+  .rowTwo{
+    margin-bottom: 5px;
+  }
+  .rowThree{
+    margin-bottom: 0px;
+  }
+  .customImage{
+    margin-left: 0rem;
+  }
+}

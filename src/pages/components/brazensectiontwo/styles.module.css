@@ -6,10 +6,12 @@
   align-items: center;
 }
 .customPara{
+  font-family: 'Playfair Display';
   font-size: 24px;
   color: #000000;
   font-weight: 400;
-  line-height: 28px ;
+  line-height: 135%;
+  letter-spacing: 0%;
 }
 .customHeading{
   font-size: 51px;

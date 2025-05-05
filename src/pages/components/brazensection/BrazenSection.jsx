@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import BrazenFm from "../../../assets/images/brazenbakground/BrazanFm.png";
 
 export default function BrazenSection() {
   return (
@@ -18,10 +19,7 @@ export default function BrazenSection() {
 
           {/* Right Branding */}
           <Col md={6}>
-            <h2 className={`${styles.customHeading}`}>
-              BRAZEN
-              <span className="text-danger">.</span>FM
-            </h2>
+            <Image src={BrazenFm} />
           </Col>
         </Row>
       </Container>

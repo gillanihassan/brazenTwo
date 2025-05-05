@@ -1,0 +1,48 @@
+.customContainer{
+  background-color:  rgb(239, 240, 240);
+  padding: 70px 150px;
+}
+.customPara{
+  color: #000000;
+  font-size: 74px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1.5%;
+  max-width: 1175px;
+  font-family: 'Poppins';
+}
+
+@media (max-width: 1400px) {
+  .customPara{
+    font-size: 68px;
+  }
+}
+@media (max-width: 1200px) {
+  .customPara{
+    font-size: 60px;
+  }
+}
+@media (max-width: 992px) {
+  .customContainer{
+    padding: 25px 150px;
+  }
+  .customPara{
+    font-size: 49px;
+  }
+}
+@media (max-width: 768px) {
+  .customContainer{
+    padding: 25px 48px;
+  }
+  .customPara{
+    font-size: 42px;
+  }
+}
+@media (max-width: 576px) {
+  .customContainer{
+    padding: 14px 22px;
+  }
+  .customPara{
+    font-size: 36px;
+  }
+}

@@ -1,3 +1,11 @@
+.poppins-text {
+  font-family: 'Poppins', sans-serif;
+}
+.playfair-text {
+  font-family: 'Playfair Display', serif;
+}
+
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,3 +48,4 @@
 .read-the-docs {
   color: #888;
 } */
+

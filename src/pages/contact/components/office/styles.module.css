@@ -1,0 +1,41 @@
+
+.paraOne{
+  color: #000000;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: 0%;
+  white-space: pre-line;
+  margin-top: 3rem;
+}
+.phone{
+  color: #000000;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: 0%;
+}
+.paraTwo{
+  color: #000000;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: 0%;
+  white-space: pre-line;
+}
+
+@media (max-width: 475px) {
+  .customImage{
+    width: 400px;
+  }
+}
+@media (max-width: 430px) {
+  .customImage{
+    width: 380px;
+  }
+}
+@media (max-width: 395px) {
+  .customImage{
+    width: 350px;
+  }
+}

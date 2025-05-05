@@ -4,21 +4,45 @@ import styles from "./styles.module.css";
 
 function WorldClock() {
   return (
-    <Container fluid className={`p-5 ${styles.customContainer}`}>
+    <Container className={`py-5 ${styles.customContainer}`}>
       <h3 className={`${styles.customHeading}`}>
         Discovering new worlds<span style={{ color: "#FF3C00" }}>.</span>
       </h3>
 
-      <Row className={`${styles.customRowOne}`}>
-        <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} className="mt-5">
+      <Row className={` ${styles.customRowOne}`}>
+        <Col
+          xs={4}
+          sm={4}
+          md={4}
+          lg={4}
+          xl={4}
+          xxl={4}
+          className="mt-5 d-flex flex-column justify-content-center align-items-center"
+        >
           <h4 className={`${styles.customRow}`}>LDN</h4>
           <p className={`${styles.customRow}`}>13:54</p>
         </Col>
-        <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} className="mt-5">
+        <Col
+          xs={4}
+          sm={4}
+          md={4}
+          lg={4}
+          xl={4}
+          xxl={4}
+          className="mt-5 d-flex flex-column justify-content-center align-items-center"
+        >
           <h4 className={`${styles.customRow}`}>NYC</h4>
           <p className={`${styles.customRow}`}>8:54</p>
         </Col>
-        <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} className="mt-5">
+        <Col
+          xs={4}
+          sm={4}
+          md={4}
+          lg={4}
+          xl={4}
+          xxl={4}
+          className="mt-5 d-flex flex-column justify-content-center align-items-center"
+        >
           <h4 className={`${styles.customRow}`}>SG</h4>
           <p className={`${styles.customRow}`}>21:54</p>
         </Col>

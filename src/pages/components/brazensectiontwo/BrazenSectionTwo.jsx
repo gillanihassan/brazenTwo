@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import Logo from "../../../assets/images/brazenbakground/BrazanStudio.png";
 
 export default function BrazenSectionTwo() {
   return (
@@ -10,8 +11,7 @@ export default function BrazenSectionTwo() {
           {/* Left Text */}
           <Col md={6} className="">
             <p className={`${styles.customPara}`}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bespoke creative
-              solutions for brands and
+              Bespoke creative solutions for brands and
               <br />
               organizations. From branded content to full-scale media
               <br />
@@ -21,10 +21,7 @@ export default function BrazenSectionTwo() {
 
           {/* Right Branding */}
           <Col md={6}>
-            <h2 className={`${styles.customHeading}`}>
-              BRAZEN STUDIOS
-              <span className="text-danger">.</span>
-            </h2>
+            <Image src={Logo} />
           </Col>
         </Row>
       </Container>
